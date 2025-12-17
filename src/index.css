@@ -1,0 +1,246 @@
+
+.navbar{
+    background-color: #2C3E50;
+    height: 20vh;
+
+}
+
+
+
+
+.nav-link:hover{
+
+  background-color: #00a6a6;
+}
+
+.active{
+  border-radius: 5px;
+
+}
+
+
+
+.home{
+    background-color: #1FB1A2;
+    height: 30rem;
+    
+}
+
+.imag{
+    width: 250px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.head{
+   padding-top: 30px;
+   font-size: 40px;
+   text-align: center;
+   color: white;    
+   font-weight: bold;
+}
+
+
+
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.star::before ,
+.star::after {
+  content: "";
+  width: 65px;
+  height: 4px;
+  background: white;
+  margin: 0 15px;
+}
+
+
+.parag{
+  color: white;
+  margin-top: 1px;
+  text-align: center;
+}
+
+
+.footer{
+
+  background-color: #2C3E50;
+
+}
+
+.groups{
+  margin-top: -16px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+
+.copyright{
+
+  background-color: #1A252F;
+  height: 4rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+.about{
+  background-color: #1FB1A2;
+  height: 30rem;
+}
+
+
+.h1-about{
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+
+.p-about{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+.portfolio{
+
+  
+  height: 46rem;
+
+}
+
+.h1-portfo{
+
+  color: #2C3E50;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+
+
+.stars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1A252F;
+  font-size: 20px;
+}
+
+.stars::before ,
+.stars::after {
+  content: "";
+  width: 65px;
+  height: 4px;
+  background: #1A252F;
+  margin: 0 15px;
+}
+
+
+
+.images-portfo img{
+
+  width: 23rem;
+  border-radius: 10px;
+  margin: 15px 35px;
+}
+
+.images-portfo2 img{
+
+  width: 23rem;
+  border-radius: 10px;
+  margin: 15px 35px;
+}
+
+
+
+.contact{
+
+  height: 36rem;
+
+}
+
+
+
+
+
+.form-container {
+  width: 600px;
+  margin: 80px auto;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.input-group label {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: #777;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -10px;
+  font-size: 12px;
+  color: #00a6a6;
+  font-weight: bold;
+}
+
+.btn {
+  background: #1ABC9C;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover{
+
+  background-color: #1ABC9C;
+  color: white;
+}
+
+
+
+
